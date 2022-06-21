@@ -1,0 +1,25 @@
+﻿<Window x:Class="CDinner101.FastFood"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CDinner101"
+        mc:Ignorable="d"
+        Title="Fast-Food" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="McDonaldsButton" Content="McDonalds" HorizontalAlignment="Left" Margin="45,50,0,0" VerticalAlignment="Top" Height="80" Width="225" FontSize="20" FontFamily="Arial Narrow" Click="McDonaldsButton_Click"/>
+        <Button x:Name="TacoBellButton" Content="Taco-Bell" HorizontalAlignment="Left" Margin="45,135,0,0" VerticalAlignment="Top" Height="80" Width="225" FontSize="20" FontFamily="Arial Narrow" Click="TacoBellButton_Click"/>
+        <Button x:Name="WendysButton" Content="Wendys" HorizontalAlignment="Left" Margin="45,220,0,0" VerticalAlignment="Top" Height="80" Width="225" FontSize="20" FontFamily="Arial Narrow" Click="WendysButton_Click"/>
+        <Button x:Name="SonicButton" Content="Sonic" HorizontalAlignment="Left" Margin="45,305,0,0" VerticalAlignment="Top" Height="80" Width="225" FontSize="20" FontFamily="Arial Narrow" Click="SonicButton_Click"/>
+        <Button x:Name="BojanglesButton" Content="Bojangles" HorizontalAlignment="Left" Margin="522,50,0,0" VerticalAlignment="Top" Height="80" Width="225" FontSize="20" FontFamily="Arial Narrow" Click="BojanglesButton_Click"/>
+        <Button x:Name="ZaxbysButton" Content="Zaxbys" HorizontalAlignment="Left" Margin="522,135,0,0" VerticalAlignment="Top" Height="80" Width="225" FontSize="20" FontFamily="Arial Narrow" Click="ZaxbysButton_Click"/>
+        <Button x:Name="KrystalsButton" Content="Krystals" HorizontalAlignment="Left" Margin="522,220,0,0" VerticalAlignment="Top" Height="80" Width="225" FontSize="20" FontFamily="Arial Narrow" Click="KrystalsButton_Click"/>
+        <Button x:Name="CentralParkButton" Content="Central-Park" HorizontalAlignment="Left" Margin="522,305,0,0" VerticalAlignment="Top" Height="80" Width="225" FontSize="20" FontFamily="Arial Narrow" Click="CentralParkButton_Click"/>
+        <Button x:Name="LJSButton" Content="Long-John-Silvers" HorizontalAlignment="Left" Margin="285,50,0,0" VerticalAlignment="Top" Height="80" Width="225" FontSize="20" FontFamily="Arial Narrow" Click="LJSButton_Click"/>
+        <Button x:Name="SubwayButton" Content="Subway" HorizontalAlignment="Left" Margin="285,135,0,0" VerticalAlignment="Top" Height="80" Width="225" FontSize="20" FontFamily="Arial Narrow" Click="SubwayButton_Click"/>
+        <Button x:Name="FirehouseButton" Content="Firehouse" HorizontalAlignment="Left" Margin="285,220,0,0" VerticalAlignment="Top" Height="80" Width="225" FontSize="20" FontFamily="Arial Narrow" Click="FirehouseButton_Click"/>
+        <Button x:Name="BurgerKingButton" Content="Burger-King" HorizontalAlignment="Left" Margin="285,305,0,0" VerticalAlignment="Top" Height="80" Width="225" FontSize="20" FontFamily="Arial Narrow" Click="BurgerKingButton_Click"/>
+        <Button x:Name="ReturnButton3" Content="Return" HorizontalAlignment="Left" Margin="45,10,0,0" VerticalAlignment="Top" FontFamily="Arial Narrow" Click="ReturnButton3_Click"/>
+
+    </Grid>
+</Window>
